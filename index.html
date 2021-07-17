@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" integrity="sha512-rRQtF4V2wtAvXsou4iUAs2kXHi3Lj9NE7xJR77DE7GHsxgY9RTWy93dzMXgDIG8ToiRTD45VsDNdTiUagOFeZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Music Player</h1>
+
+    <div class="music-container">
+        <div class="music-info">
+            <h4 id="title">Birju</h4>
+            <div class="progress-container">
+                <div class="progress"></div>
+            </div>
+        </div>
+        <audio src="music/Birju.mp3" id="audio"></audio>
+
+        <div class="img-container">
+            <img src="images/record.jpg" alt="music-cover" id="cover">
+        </div>
+
+        <div class="navigation">
+            <button id="prev" class="action-btn">
+                <i class="zmdi zmdi-skip-previous"></i>
+            </button>
+            <button id="play" class="action-btn action-btn-big">
+                <i class="zmdi zmdi-play"></i>
+            </button>
+            <button id="next" class="action-btn">
+                <i class="zmdi zmdi-skip-next"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h6>Developed by Ashish Jain</h6>
+    </div>
+
+
+    <script src="./script.js"></script> 
+</body>
+</html>
